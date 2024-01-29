@@ -1,8 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 body{
     background-color: #fafcea;
 }
 h1{
     color: #3d280a;
+
+    margin: 0px 20px;
+    font-family: 'Gamja Flower', sans-serif;
+    font-size: 80px;
+}
+
+ul{
+    margin: 10px 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+ul li button{
+    font-family: 'Gamja Flower', sans-serif;
+}
+.normalButtons li button{
+    background-color: #ebf395;
+    color: #684f1b;
+    font-size: 23px;
+    padding: 10px 40px
+}
+.mainButtons li button{
+    background-color: #e5ec58;
+    color: #684f1b;
+    font-size: 25px;
+    padding: 5px 30px
+}
+.normalButtons li button:hover{
+    background-color: #e4e52a;
+}
+.normalButtons li button:active{
+    background-color: #d5cd1d;
+}
+.mainButtons li button:hover{
+    background-color: #d5cd1d;
+}
+.mainButtons li button:active{
+    background-color: #7a6019;
 }
 .main{
     display: flex;
